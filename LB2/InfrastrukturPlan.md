@@ -1,4 +1,4 @@
-# IT-Infrastruktur-Dokumentation
+# IT-Infrastruktur-Plan
 
 ## 1. Virtualisierungsplattform
 
