@@ -5,7 +5,7 @@
 Zur Umsetzung des Projekts wird eine Virtualisierungssoftware eingesetzt, um eine vollständig isolierte Testumgebung zu erstellen.
 
 **Eingesetzte Plattformen:**
-- VMware Workstation
+- VMware Workstation Pro
 
 **Netzwerkkonfiguration:**
 - Host-Only Network 
@@ -21,7 +21,7 @@ Diese Netzwerkmodi stellen sicher, dass:
 ### 2.1 Client-System
 
 **Betriebssystem:**
-- Windows 10 / Windows 11  
+- Windows 11  
  
 
 **Zweck:**
@@ -31,7 +31,6 @@ Diese Netzwerkmodi stellen sicher, dass:
 **Installierte Software:**
 - Telnet-Client  
   - z. B. PuTTY (Windows)
-
 
 ---
 
