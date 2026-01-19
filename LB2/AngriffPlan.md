@@ -1,4 +1,4 @@
-# Dokumentation der Attacke — Kurzplan
+# Dokumentation der Attacke als Plan
 
 **Kurzfassung**
 Sicheres, isoliertes Labor-Szenario: ARP-basierter Man-in-the-Middle (MITM) in einer Host-Only-VM-Umgebung zur Demonstration, wie unverschlüsselte Protokolle (Telnet, FTP, HTTP, POP3) Klartextdaten preisgeben. Nur im isolierten Labor durchführen.
