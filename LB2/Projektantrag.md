@@ -95,6 +95,3 @@ Vollständig, mit Journal, Fehleranalyse, Screenshots und Quellen.
 ### Engagement
 Erweiterte Betrachtung mehrerer Protokolle, realistische Angriffsszenarien
 
----
-
-
