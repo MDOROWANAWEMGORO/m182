@@ -1,7 +1,7 @@
 # Dokumentation der Attacke als Plan
 
 **Kurzfassung**
-Sicheres, isoliertes Labor-Szenario: ARP-basierter Man-in-the-Middle (MITM) in einer Host-Only-VM-Umgebung zur Demonstration, wie unverschlüsselte Protokolle (Telnet, FTP, HTTP, POP3) Klartextdaten preisgeben. Nur im isolierten Labor durchführen.
+Sicheres, isoliertes Labor-Szenario: ARP-basierter Man-in-the-Middle (MITM) in einer Host-Only-VM-Umgebung zur Demonstration, wie unverschlüsselte Protokolle (Telnet, FTP, HTTP) Klartextdaten preisgeben. Nur im isolierten Labor durchführen.
 
 # Lernziele
 
@@ -13,7 +13,7 @@ Sicheres, isoliertes Labor-Szenario: ARP-basierter Man-in-the-Middle (MITM) in e
 # Voraussetzungen
 
 * VMware Workstation, Host-Only Netzwerk (keine Internetverbindung).
-* VMs: Client (Windows, Telnet-Client), Server (Ubuntu, Telnet/optional FTP/HTTP/POP3), Angreifer (Kali, Wireshark).
+* VMs: Client (Windows, Telnet-Client), Server (Ubuntu, Telnet/optional FTP/HTTP/), Angreifer (Kali, Wireshark).
 * Snapshots vor jedem Versuch; Speicher für PCAPs/Screenshots.
 
 # Sicherheitsregeln
@@ -29,7 +29,7 @@ Sicheres, isoliertes Labor-Szenario: ARP-basierter Man-in-the-Middle (MITM) in e
 3. ARP-Manipulation (Angreifer leitet Verkehr um) — Capture starten.
 4. Erneute Telnet/FTP/HTTP-Sessions ausführen; ARP-Tabellen vergleichen.
 5. Wiederherstellen (ARP bereinigen / Snapshot zurückspielen).
-6. PCAPs sichern und analysieren.
+6. PCAPs analysieren.
 
 # Wireshark — Wichtige Filter & Indikatoren
 
@@ -56,7 +56,7 @@ Für jedes Szenario: Datum, Ziel, Hosts (Name/IP/MAC), Snapshot-ID, Aktionen, Be
 # Checkliste
 
 * Snapshots erstellt
-* Baseline-PCAP gespeichert
-* MITM-PCAP gespeichert
+* Baseline-PCAP analysiert
+* MITM-PCAP analysiert
 * ARP-Tabellen dokumentiert (Vor/Nach)
 * Journal & Screenshots vorhanden
