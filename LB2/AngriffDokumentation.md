@@ -1,5 +1,8 @@
 # Dokumentation der Attacke – MITM-Attacke im Labor
 
+## 0 Vorbereitung
+
+
 ---
 
 ## 1️ Wireshark Capture-Filter
@@ -82,6 +85,9 @@ arp -a
 ```bash
 ip neigh
 ```
+
+So sieht es vor dem Angriff auf dem Ubuntu Server aus:
+![](Screenshots/UbuntuIPNeigh.png)
 
 ### Erklärung:
 
