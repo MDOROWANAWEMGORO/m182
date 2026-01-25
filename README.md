@@ -11,3 +11,5 @@
 - [Lab Infrastruktur](LB2/InfrastrukturPlan.md)
 - [Angriff als Plan](LB2/AngriffPlan.md)
 - [Dokumentation des Angriffs](LB2/AngriffPlan.md)
+- [Probleme](LB2/Probleme.md)
+- [Journal](LB2/Journal.md)
